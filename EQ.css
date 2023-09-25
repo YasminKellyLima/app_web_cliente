@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Open+Sans&family=Roboto:wght@300&family=Sigmar+One&family=Ysabeau+SC&display=swap');
+body{
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.item{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+#output{
+    margin-top: 15px;
+}

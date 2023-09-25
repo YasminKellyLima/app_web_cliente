@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Open+Sans&family=Roboto:wght@300&family=Sigmar+One&family=Ysabeau+SC&display=swap');
+body{
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.caixa{
+    border: 1px solid gray;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.caixa .s1{
+    float: left;
+    color: grey;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.caixa .s2{
+    float: right;
+    color: grey;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+canvas{
+    
+    margin-top: 35px;
+}
+.caixaInterna{
+    margin-top: 25px;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
+.g{
+    
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    
+}

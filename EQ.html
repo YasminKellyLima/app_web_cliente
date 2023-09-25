@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Equipamentos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+
+    <link rel="stylesheet" href="EQ.css">
+</head>
+<body>
+   <div class="container">
+    <h1>Equipamentos</h1>
+    <hr>
+    <div>
+        <div class="item" id="e">
+            <p>Nome do eletrodoméstico:</p>
+            <input type="text" name="" id="nomeEquipamento" class="form-control" placeholder="Ex: Smartphone">
+        </div>
+        <div class="item"id="p">
+            <p>Marca:</p>
+            <input type="text" name="" id="marca" class="form-control" placeholder="Ex: Samsung">
+        </div>
+        <div class="item"id="q">
+            <p>Quantidade:</p>
+            <input type="number" name="" id="quantidade" class="form-control" placeholder="Ex: 3">
+        </div>
+        <div class="item"id="s">
+            <p>Série do equipamento:</p>
+            <input type="text" name="" id="serie" class="form-control" placeholder="Ex: A">
+        </div>
+        <button onclick="prox()" class="btn btn-success" >Adicionar</button>
+        <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="btn-close" data-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          Modal body..
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="lista">
+        <div id="output">
+
+        </div>
+    </div>
+    <button onclick="voltar()" class="btn btn-link">Inicio</button>
+   </div>
+   <script src="EQ.js"></script>
+</body>
+</html>

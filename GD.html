@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geração Diária</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="G.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Geração Diária</h1>
+        <div class="caixa" style="padding-top: 10px;">
+            <span class="top"><i class="fas fa-arrow-left s1"></i><span id="date">01/05/2023</span><i class="fas fa-arrow-right s2"></i></span>
+            <div class="g">
+             <canvas id="grafico"></canvas>   
+            </div>
+            
+            <div class="caixaInterna">
+                Vamos entender como seu gráfico diário foi construído:
+                <br>
+                <p>De acordo com os eletrodomésticos inseridos, sua média de consumo diária é de
+                    <br>
+                    <span id="mcd"><kbd>37kWh</kbd></span>
+                    <br>
+                    E hoje, sua usina conseguiu gerar
+                    <br>
+                    <span id="gd"><kbd>50kWh</kbd></span>
+                    <br><br>
+                    <b>Convertendo em R$, temos que </b>
+                    <br>
+                    você consome por dia 
+                    <br>
+                    <span id="mcdr"><kbd>R$ 33,30</kbd></span>
+                    <br>
+                    e sua usina gera por dia 
+                    <br>
+                    <span id="gdr"><kbd>R$ 45,00</kbd></span>
+                    <br>
+
+                </p>
+            </div>
+            <button onclick="voltar()">Inicio</button>
+        </div>
+    </div>
+    <script src="GD.js"></script>
+</body>
+</html>

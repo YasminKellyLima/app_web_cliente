@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600&family=Open+Sans&family=Roboto:wght@300&family=Sigmar+One&family=Ysabeau+SC&display=swap');
+body{
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login button{
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid gray;
+    padding: 5px;
+    width: 140px;
+    border-radius: 20px;
+    margin-top: 16px;
+    
+}
+.login input{
+    padding: 4.5px;
+    width: 250px;
+    margin: 8px;
+    text-align: center;
+    border-width: 1px;
+    border-radius: 5px;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+.login a{
+    margin-top: 25px;
+    font-size: 11px;
+}
+
+
+.btn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.btn .bt{
+    width: 75%;
+    padding: 8px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.btn .bt:hover{
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
+}
